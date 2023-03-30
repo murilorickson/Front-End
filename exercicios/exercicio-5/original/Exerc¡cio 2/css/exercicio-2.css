@@ -1,0 +1,45 @@
+/* RESET */
+*{
+    margin:0;
+    padding:0;
+    border:0;
+    list-style:none;
+}
+
+/* TOPO */
+figure img{width:100%;}
+
+/* CONTEÚDO */
+main{
+    width:1000px;
+    margin:0 auto;
+}
+h2{
+    font:bold 26px 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-transform:uppercase;
+    color:#999;
+    margin:40px 0 20px;
+    border-bottom:2px solid #999;
+}
+p{
+    font:16px/20px Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:#333;
+    margin-bottom:10px;
+}
+.como-comecou p{text-align:center;}
+.como-comecou img{margin:10px}
+li{
+    font:16px Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:#333;
+    list-style:inside url(../imagens/check.png);
+}
+iframe{width:100%;}
+
+/* RODAPÉ */
+footer{
+    border-top:1px solid #333;
+    margin-top:40px;
+    padding:20px 0;
+    text-align:center;
+}
+footer p{margin-bottom:0;}

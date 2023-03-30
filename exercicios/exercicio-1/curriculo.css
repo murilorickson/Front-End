@@ -1,0 +1,10 @@
+h1, h2, h4 {
+	text-decoration: underline;
+	font-style: italic;
+}
+
+body {
+	background-color: #808080
+	font-family: monospace;
+	font-size: 20px;
+}

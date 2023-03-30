@@ -1,0 +1,32 @@
+ .container-fluid {
+	margin: 0;
+	padding: 0;
+}
+
+.d-flex figure img {
+	width: 132px;
+	height: 110px;
+}
+
+.d-flex h2, p {
+	margin-left: 10px;
+	font: 12px Arial, Helvetica, sans-serif;
+	margin-right: 10px;
+}
+
+.d-flex h2 {
+	font-weight: bold;
+	font-size: 14px;
+}
+
+.artigo2 {
+	margin-top: 20px;
+}
+
+.imagi, .para p, a {
+	margin-left: 50px;
+}
+
+.para p, a {
+	margin-left: 75px;
+}

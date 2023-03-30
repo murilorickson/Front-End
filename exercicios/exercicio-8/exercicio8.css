@@ -1,0 +1,197 @@
+/* RESET */
+html,
+body,
+div,
+span,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+address,
+em,
+img,
+strong,
+u,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+main,
+article,
+aside, 
+figure,
+figcaption,
+footer,
+header,
+nav,
+section,
+time,
+audio,
+video{
+  border:0;
+  font-size:100%;
+  font:inherit;
+  margin:0;
+  padding:0;
+  vertical-align:baseline;
+}
+html{scroll-behavior:smooth;}
+body{
+  background:#fff;
+  color:#333;
+  font-family:Arial, Helvetica, sans-serif;
+  font-size:14px;
+  line-height:1;
+}
+ol, 
+ul,
+li{list-style:none;}
+strong{font-weight:bold;}
+table{
+  border-collapse:collapse;
+  border-spacing:0;
+  width:100%;
+}
+img{width:100%;}
+a,
+a:hover{
+  color:#000;
+  text-decoration:none;
+  cursor:pointer;
+}
+:focus{outline:0;}
+
+/* CONTAINER */
+
+.container {
+  width: 1100px;
+  margin: 0 auto;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 30px;
+}
+
+h1 {
+  width: 250px;
+}
+
+nav ul {
+  display: flex;
+}
+
+nav ul li {
+  margin-left: 30px;
+}
+
+nav ul li a {
+  font: 18px Arial, Helvetica, sans-serif;
+}
+nav a:hover {
+  color: #990;
+}
+
+/* CONTEUDO */
+
+.foto-principal {
+  position: relative;
+}
+
+.foto-principal h2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  color: #fff;
+  font: bold 50px/1 Arial, Helvetica, sans-serif;
+  transform: translate(-50%, -50%);  
+}
+
+/* AREA DE CONTEUDO */
+
+.post-main {
+  background: #fff;
+  padding: 30px;
+  position: relative;
+  top: -60px;
+  display: flex;
+  gap: 20px;
+}
+
+.post-main > article {
+  width: 75%;
+}
+
+.post-conteudo {
+  display: flex;
+  gap: 30px;
+  font-size: 16px;
+  margin-bottom: 30px;
+}
+
+article img {
+  width: 300px;
+  height: 200px;
+} 
+
+.negocios-1 {
+  color: #ac65b8;
+}
+
+.negocios-2 {
+  color: #43cddf;
+}
+
+.post-conteudo h4 {
+  font-size: 18px;
+  margin: 10px 0 20px 0;
+}
+
+.post-conteudo h3 {
+  font: bold 25px sans-serif;
+  margin-bottom: 20px;
+}
+
+.post-text {
+  color: #aaa;
+  font: 18px/25px Arial, Helvetica, sans-serif;
+  margin-bottom: 10px;
+  height: 75px;
+  overflow: hidden;
+}
+
+aside {
+  width: 25%;
+}
+
+aside h3 {
+  margin: 30px 0 20px 0;
+  font: bold 22px Arial, Helvetica, sans-serif;
+}
+
+aside li {
+  padding: 10px 0;
+  line-height: 20px;
+}
+
+aside a {
+  color: #00d;
+  font-size: 16px;
+}

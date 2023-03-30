@@ -1,0 +1,18 @@
+h1 {
+	text-align: center;
+}
+
+h2 {
+	text-align: center;
+}
+
+#md {
+	text-align: right;
+	font-weight: bolder;
+}
+
+#cabeça {
+	list-style-type: none;
+	text-align: center;
+	font-weight: bolder;
+}

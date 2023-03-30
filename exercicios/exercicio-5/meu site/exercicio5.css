@@ -1,0 +1,42 @@
+ * {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	list-style: none;
+} 
+
+.topo {
+	width: 100%;
+	margin: 0px 0px 35px 0;
+}
+
+article {
+	margin: 15px 11% 15px 11%;
+}
+
+h2 {
+	border-bottom: 2px ridge #ccc;
+	color: #a9a9a9;
+	font-family: Arial;
+}
+
+p {
+	margin: 20px;
+}
+
+.imagi {
+	margin: 0px 5px 0px 5px;
+}
+
+li {
+	list-style-image: url('imagens/check.png');
+	margin: 0px 5% 0px 5%;
+}
+
+footer {
+	border-top: 2px ridge #ccc;
+}
+
+.rodape {
+	text-align: center;
+}

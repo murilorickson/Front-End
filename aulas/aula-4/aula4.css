@@ -1,0 +1,68 @@
+h1 {
+	text-align: center;
+}
+
+h3 {
+	color: #900;
+	font: small-caps 20px Arial, Helvetice, sans-serif;
+}
+
+p {
+	color: #333;
+	font: 14px/20px Georgia, 'Times New Roman', Times, serif;
+	text-indent: 20px;
+}
+
+figure {
+	text-align: center;
+}
+
+/*DRY - DON'T REPEAT YOURSELF*/
+
+/*KISS - KEEP IT SIMPLE STUPID*/
+
+/*gohorseprocess.com.br*/
+
+/*POG - PROGAMAÇÃO ORIENTADA A GAMBIARRA*/
+
+li {
+	/*list-style-type: upper-roman;*/
+	/*list-style: inside url(...)*/
+	color: #333;
+	font: 14px/20px Georgia, 'Times New Roman', Times, serif;
+	list-style-image: url(../../imagens/Logos/favicon.png);
+	list-style-position: inside;
+}
+
+h2 {
+	font: bold 40px Arial, Helvetice, sans-serif;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+h4 {
+	font: bold 30px Arial, Helvetice, sans-serif;
+}
+
+th {
+	color: #333;
+	font: normal 14px/20px Georgia, 'Times New Roman', Times, serif;
+	text-align: left;
+}
+
+td {
+	font: 14px/20px Georgia, 'Times New Roman', Times, serif;
+	color: #333;
+}
+
+div {
+	text-align: center;
+}
+
+span {
+	text-decoration: underline;
+}
+
+#copy {
+	text-align: center;
+}

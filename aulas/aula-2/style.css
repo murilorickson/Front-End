@@ -1,0 +1,20 @@
+h1 {
+	color: red;
+	font-family: monospace; /* FONTES*/
+	font-size: 50px; /* TAMANHO DA LETRA*/
+	font-weight: 900; /* VARIA DE 100 A 900*/
+	font-style: italic; /* ITALICO*/
+	font-variant: small-caps; /* VERSALETE*/
+}
+
+h2 {
+	color: green;
+	font: normal italic small-caps 20px monospace; /* AGRUPAMENTO DAS PROPIEDADES "FONT" */
+	/* ORDEM: "ESTILOS" - "TAMANHO" - "TIPO/FONT", TAMANHO E TIPO DA LETRA É OBRIGATORIO */
+	line-height: 40px; /* ALTURA DA LINHA */
+	text-align: left; /* ALINHAMENTO DE TEXTO: CENTER,  RIGTH, JUSTIFY */
+	text-decoration: underline; /* SUBLINHADO: UNDERLINE, LINE-THROUGH, OVERLINE */
+	text-transform: capitalize; /* MUDA A CAIXA DO TEXTO */
+	text-indent: 30px; /* ESPAÇAMENTO DE PARAGRAFO */
+	letter-spacing: 10px; /* ESPAÇAMENTO ENTRE LETRAS */
+}

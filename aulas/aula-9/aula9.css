@@ -1,0 +1,63 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	list-style: none;
+}
+
+h1 {
+	width: 520px;
+	height: 106px;
+	margin: 20px auto;
+	overflow: hidden;
+}
+
+.banner {
+	background: url('../../imagens/Fotos/familia-na-praia.jpg') center no-repeat;
+	background-size: 100%;
+	text-align: center;
+	padding: 100px 0 200px;
+	border-top: 1px solid #333;
+}
+
+h2 {
+	color: #333;
+	font: bold 26px Arial, Helvetica, sans-serif;
+}
+
+.container {
+	width: 950px;
+	margin: 0 auto;
+}
+
+.post {
+	margin-top: -50px;
+	background: #fff;
+	padding: 20px;
+}
+
+.post h4 {
+	color: #900;
+	font: normal 16px 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande'
+}
+
+.post h3 {
+	font: 36px Arial, Helvetica, sans-serif;
+	margin: 10px 0 15px;
+}
+
+.post p {
+	margin-bottom: 10px;
+	font-size: 17px;
+}
+
+p.author {
+	font-size: 20px;
+}
+
+footer {
+	border-top: 1px solid #333;
+	padding: 20px 0;
+	margin-top: 30px;
+	text-align: center;
+}

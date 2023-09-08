@@ -1,0 +1,104 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	list-style: none;
+}
+
+.container {
+	width: 1200px;
+	margin: 0 auto;
+}
+
+.topo {
+	background: #ccc;
+}
+
+/* DISPLAY */
+
+.d-box2 {
+	display: block;
+	padding: 10px 40px;
+	text-decoration: none;
+}
+
+/* DISPLAY: INLINE-BLOCK; */
+
+.d-box {
+	background: #333;
+	margin-top: 50px;
+}
+
+.d-box1 {
+	width: 200px;
+	height: 100px;
+	background: #090;
+}
+
+.d-box2 {
+	width: 250px;
+	height: 130px;
+	background: #009;
+}
+
+.d-box1, .d-box2 {
+	display: inline-block;
+	vertical-align: top;
+}
+
+/* FLEX */
+/* FLEX PERMITE QUE OS ELEMENTOS FILHOS DAQUELE ELEMENTO ONDE O FLEX FOI ATRIBUITO QUE FIQUEM UM DO LADO DO OUTRO. POR PADRAO ELE MUDA O TAMANHO DOS FILHOS PARA CABER  */
+
+.f-box {
+	background: #999;
+	margin-top: 50px;
+	display: flex;
+	flex-wrap: wrap; /*FAZ COM QUE OS ELEMENTOS FILHOS MANTENHAM SEU TAMANHO.*/
+	justify-content: space-between; /*ALINHAMENTO HORIZONTAL DO FLEX*/
+	align-items: center; /*ALINHAMENTO VERTICAL:*/
+	gap: 10px; /*ESPAÇAMENTO ENTRE OS FILHOS*/
+}
+
+.f-box1 {
+	width: 230px;
+	height: 130px;
+	background: #990;
+}
+
+.f-box2 {
+	width: 120px;
+	height: 200px;
+	background: #099;
+}
+
+.box1 {order: 7;}
+.box2 {order: 10;}
+.box3 {order: 1;}
+.box4 {order: 2;}
+.box5 {order: 8;}
+.box6 {order: 5;}
+.box7 {order: 3;}
+.box8 {order: 9;}
+.box9 {order: 4;}
+.box10 {order: 6;}
+
+/* GRID */
+
+.g-box {
+	background: #ccc;
+	margin-top: 50px;
+	display: grid;
+	grid-template-columns: 300px 300px;
+}
+
+.g-box1 {
+	width: 150px;
+	height: 200px;
+	background: #909;
+}
+
+.g-box2 {
+	width: 300px;
+	height: 150px;
+	background: #900;
+}

@@ -1,2 +1,2 @@
 # Front-End
-Meu primeiro curso de front-end
+front puro
